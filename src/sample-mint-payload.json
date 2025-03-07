@@ -1,0 +1,45 @@
+{
+  "username": "REBEL TRACKER",
+  "avatar_url": "https://cdn.discordapp.com/attachments/1149547617785749504/1161502228255866990/X.png?ex=6538883e&is=6526133e&hm=236ac9d9f14149c760cb566633b925baf19af6dc6deb92353da4a3c322c80db8&",
+  "embeds": [
+    {
+      "url": "https://plaza.kabila.app/launchpads/126/hangry-rebels",
+      "color": 14698076,
+      "timestamp": "2023-10-14T14:44:44Z",
+      "footer": {
+        "text": "lworks.io",
+        "icon_url": "https://cdn.discordapp.com/attachments/1014675105604980897/1014890107616104489/628e81659d36be617258642c_Logo_Mark_-_Light.png"
+      },
+      "title": "THOON",
+      "fields": [
+        {
+          "name": "Wallet",
+          "value": "Thoon",
+          "inline": true
+        },
+        {
+          "name": "Token",
+          "value": "[HRBLS](https://hashscan.io/mainnet/token/0.0.3837554) # [1](https://hashscan.io/mainnet/token/0.0.3837554/1)",
+          "inline": true
+        },
+        {
+          "name": "Rank",
+          "value": "[1](https://nftier.tech/hedera/hangry-rebels/1)",
+          "inline": true
+        },
+        {
+          "name": "WL Balance",
+          "value": "1 / 1",
+          "inline": false
+        },
+        {
+          "name": "Estimated Remaining",
+          "value": "565 / 565"
+        }
+      ],
+      "image": {
+        "url": "https://cdn.discordapp.com/attachments/1149547617785749504/1162021634840993792/bafybeiflprmvskebdzh3knvpcjcy45khuisakasfw6uvfbuoyw47klj6tq.png?ex=653a6bfb&is=6527f6fb&hm=8b82c0c73cf1e5255691cde68f78743a23d9dcc51abafd7461e1a9f8f6720df3&"
+      }
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+**/dist/
+**/node_modules/
+**/*.zip
+archive.js
+discord-trade-bot.bak

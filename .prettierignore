@@ -1,0 +1,9 @@
+**/generated/*.ts
+**/generated/*.yml
+**/testData/**
+**/test-data/**
+**/.data/**
+tsconfig-ci-lint.json
+tsconfig-eslint.json
+**/*.md
+**/dist

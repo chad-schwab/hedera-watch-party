@@ -1,0 +1,34 @@
+#!/usr/bin/env node
+const esbuild = require("esbuild");
+const AdmZip = require("adm-zip");
+
+const args = process.argv.slice(2);
+const entryPoint = args[0] || "src/index.ts";
+const outdir = args[1] || "dist";
+
+async function build() {
+  try {
+    console.info(`Building ${entryPoint} to ${outdir}/index.js`);
+    await esbuild.build({
+      entryPoints: [entryPoint],
+      bundle: true,
+      minify: true,
+      sourcemap: true,
+      platform: "node",
+      target: "node20",
+      outdir: outdir,
+    });
+    const zip = new AdmZip();
+
+    zip.addLocalFile(`${outdir}/index.js`);
+    zip.addLocalFile(`${outdir}/index.js.map`);
+    zip.writeZip(`${outdir}/lambda.zip`);
+
+    console.log(`Zipped ${outdir}/index.js to ${outdir}/lambda.zip`);
+  } catch (error) {
+    console.error("Unexpected error: ", error);
+    process.exit(1);
+  }
+}
+
+build();
