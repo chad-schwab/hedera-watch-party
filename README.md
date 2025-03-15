@@ -13,6 +13,9 @@ This project is a consumer of the now defunct Ledger Works Sentinel project. It 
 - **NFT Messages:**
   Each message features images and detailed sale information.
 
+- **Fungible Token Messages:**
+  Displays SaucerSwap liquidity pool name if transaction is a swap
+
 - **Integrations:**
   - **Hashpack Naming Service:**
     Displays Hedera domain names (e.g., .hbar, .h) for better user recognition.
